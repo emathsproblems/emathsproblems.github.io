@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#3b3b3b;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #800080;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+
+.description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 2.0rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 5px;
+}
+
+.food-text {
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.food-text-meat {
+	color: #e60000;
+}
+
+.food-text-dairy {
+	color: #e6a100;
+}
+
+.food-text-vegan {
+	color: #21b504;
+}
+
+
+
+
+.frontpagecontainer {
+	margin: 0.8em auto;
+	width: 95%;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.bottom {
+  text-align: bottom;
+}
+
+
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+.category-block {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.flex-block {
+  display: flex;
+}
+
+.flex-block img {
+  width: 100%;
+}
+
+.flex-block__area {
+    display: flex;
+  }
+}
+
+
+
+
+
+
+
