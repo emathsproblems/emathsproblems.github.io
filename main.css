@@ -1,15 +1,21 @@
-body {
-    padding: 0;
-    margin: 0;
-    background: #f2f6e9;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+  background: #f2f6e9;
 }
+
 .navbar {
     background:#3b3b3b;
+    border-bottom: 10px solid #f2f6e9;
+    min-height: 20px;
 }
 .nav-link,
 .navbar-brand {
     color: #fff;
     cursor: pointer;
+    line-height: 20px;
 }
 .nav-link {
     margin-right: 1em !important;
@@ -20,6 +26,12 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+.navbar-custom {
+  height: 20px;
+}
+
+
 
 .description {
 	left: 50%;
@@ -94,7 +106,40 @@ body {
 .frontpagecontainer {
 	margin: 0.8em auto;
 	width: 95%;
+    background:#21b504;
+    
 }
+
+.testcontainer{
+	margin: 20px;
+	width: 96%;
+    background:#21b504;
+    
+}
+
+
+.full-height {
+  height: calc(100% - 57px);
+  width=100%;
+  background: #f2f6e9;  
+  margin: 0px;    
+}
+
+.full-height-yellow {
+  height: calc(100% - 57px);
+  width=100%;
+  background: yellow;  
+  margin: 0px;    
+}
+
+.full-height-margin {
+  height: 100%;
+  margin: 0px;
+	width: 96%;
+    background:#21b504;
+}
+
+
 
 
 .center {
@@ -121,6 +166,9 @@ body {
 
 .row {
   display: flex;
+  margin: 0px;
+  height: calc(100% - 10px);
+    
 }
 
 .column {
@@ -148,9 +196,22 @@ body {
   }
 }
 
+.list-group.panel {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px
+}
+
+.list-group-item {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px
+}
 
 
 
-
-
+iframe {
+    margin: 0px;
+    padding: 0px;
+}
 
