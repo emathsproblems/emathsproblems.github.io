@@ -7,7 +7,7 @@ html, body {
 }
 
 .navbar {
-    background:#3b3b3b;
+    background:#c3d7e6;
     border-bottom: 10px solid #f2f6e9;
     min-height: 20px;
 }
@@ -73,31 +73,12 @@ html, body {
 	font-size: 2.0rem;
 	font-weight: 700;
 	margin-bottom: 10px;
-	text-transform: uppercase;
 }
 .features img {
 	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 5px;
-}
-
-.food-text {
-	font-size: 1.5rem;
-	font-weight: 300;
-	margin-bottom: 10px;
-}
-
-.food-text-meat {
-	color: #e60000;
-}
-
-.food-text-dairy {
-	color: #e6a100;
-}
-
-.food-text-vegan {
-	color: #21b504;
 }
 
 
@@ -119,14 +100,15 @@ html, body {
 
 
 .full-height {
-  height: calc(100% - 57px);
+  height: calc(100% - 60px);
   width=100%;
   background: #f2f6e9;  
   margin: 0px;    
+  
 }
 
 .full-height-yellow {
-  height: calc(100% - 57px);
+  height: calc(100% - 54px);
   width=100%;
   background: yellow;  
   margin: 0px;    
@@ -144,6 +126,8 @@ html, body {
 
 .center {
   text-align: center;
+    margin: 40px;
+    padding: 0px;
 }
 
 .bottom {
@@ -198,14 +182,15 @@ html, body {
 
 .list-group.panel {
   border-top-right-radius: 10px;
-  border-top-left-radius: 10px
+  border-top-left-radius: 10px;
+  background:#c3e6cb;
 }
 
 .list-group-item {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px
+  border-bottom-left-radius: 10px;
 }
 
 
