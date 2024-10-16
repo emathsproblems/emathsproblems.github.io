@@ -1,3 +1,4 @@
 2_components/sidebar.html #### 2_components/sidebar_data.csv #### concat #### 49
 1_templates/index.html #### 1_templates/index_data.csv #### repeat #### 0
+1_templates/contact.html #### 1_templates/contact_data.csv #### repeat #### 0
 1_templates/textbook.html #### 1_templates/textbook_data.csv #### repeat #### 0
